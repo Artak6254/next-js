@@ -70,11 +70,11 @@ function Cards() {
                             <span className="text-[11px] text-slate-700 mt-4 font-semibold">Դասընթացի վերաբերյալ ավելի մանրամասն տեղեկատվություն իմանալու համար խնդրում եմ գրանցվել և մեր մասնագետը կարճ ժամանակահատվածում կապ կհաստատի Ձեր հետ։</span>
                         </div>
                         <div className="mt-10 flex items-center flex-wrap gap-4">
-                            <Link href="/contact"
+                            <button type="button" onClick={handleContactClick}
                                 className="px-6 py-2.5 w-full rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-green-600 bg-green-600 hover:bg-transparent hover:text-black transition-all duration-300"
                             >
                                 գրանցվել
-                            </Link>
+                            </button>
                         </div>
                     </div>
                 </div>
